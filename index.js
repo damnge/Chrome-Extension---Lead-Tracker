@@ -23,7 +23,7 @@ tabBtn.addEventListener("click", function(){
         render(myLeads)
     })
 })
-// function that display all the items in the array 
+// function that display all the items from the array in HTML 
 function render(leads) {
     let listItems = ""
     for (let i = 0; i < leads.length; i++) {  //for loop goes throgh all the elememnts in the array
